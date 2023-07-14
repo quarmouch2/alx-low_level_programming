@@ -6,7 +6,7 @@
  * main - entry point
  *
  * Description: print the value of n statue:
- *              greater than, is zero and is not less then 6.
+ *		greater than, is zero and is not less then 6.
  *
  * Return: 0 (success)
 */
@@ -17,6 +17,8 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	digit = n % 10;
+
 	if (digit > 5)
 		printf(" Last digit of %i is %i and is greater than 5\n", n, digit);
 	else if (digit == 0)
