@@ -5,7 +5,7 @@
 /**
  * main - entry point
  *
- * Description: print the value of n statue:
+ * Description: print the value of n status:
  *		greater than, is zero and is not less then 6.
  *
  * Return: 0 (success)
